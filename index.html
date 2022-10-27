@@ -444,7 +444,7 @@
             <label class="contact-label">
               <span class="contact-title">Ім'я</span>
               <div class="contact-block">
-                <input class="contact-input" type="text" name="username" />
+                <input class="contact-input" type="text" name="contact-username" />
                 <svg class="contact-icon" width="12" height="12">
                   <use href="./images/icons.svg#icon-username"></use>
                 </svg>
@@ -453,7 +453,7 @@
             <label class="contact-label">
               <span class="contact-title">Телефон</span>
               <div class="contact-block">
-                <input class="contact-input" type="tel" name="tel" />
+                <input class="contact-input" type="tel" name="contact-tel" />
                 <svg class="contact-icon" width="13" height="13">
                   <use href="./images/icons.svg#icon-tel"></use>
                 </svg>
@@ -462,7 +462,7 @@
             <label class="contact-label">
               <span class="contact-title">Пошта</span>
               <div class="contact-block">
-                <input class="contact-input" type="email" name="email" />
+                <input class="contact-input" type="email" name="contact-email" />
                 <svg class="contact-icon" width="15" height="12">
                   <use href="./images/icons.svg#icon-eml"></use>
                 </svg>
@@ -472,6 +472,13 @@
               <span class="contact-title">Коментар</span>
               <textarea class="contact-input contact-textarea" name="comment" placeholder="Введіть текст"></textarea>
             </label>
+
+            <label class="checkbox-label">
+              <input class="checkbox-input visually-hidden" type="checkbox" name="contact-checkbox" value="terms" />
+              <span class="icon"></span>
+              <span class="contact-checkbox">Погоджуюся з розсилкою та приймаю <a href="#">Умови договору</a></span>
+            </label>
+
             <button type="submit">Відправити</button>
         </form>
       
